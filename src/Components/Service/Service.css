@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* contact inner section styles */
+.inner-banner {
+  background-image: url("../../img/hero-bg2.jpg");
+  height: 50vh;
+  background-repeat: repeat;
+  background-position: cover;
+  position: relative;
+  z-index: 10;
+  opacity: 0.6;
+}
+.text-design h1 {
+  z-index: 99;
+}
+.overlay {
+  position: absolute;
+  display: block;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  /* background-color: rgba(0, 0, 0, 0.39); */
+  z-index: 5;
+}
+
+
+
+/* Services.css */
+.services {
+   width: 100%;
+   height: auto;
+   margin-top: 60px;
+   padding: 20px;
+   text-decoration: none;
+  }
+  
+  .section-title h2 {
+    color: #1d1f21;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-decoration: none;
+  }
+  
+  .section-title p {
+    font-size: 18px;
+    color: #1d1f21;
+  }
+  
+  .icon-box {
+    /* background: #fff; */
+    padding: 10px;
+    width: 33.33%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .icon-box:hover {
+    transform: translateY(-10px);
+  }
+  
+  .icon {
+    font-size: 48px;
+    color: #8b0000; /* Dark red color */
+  }
+  
+  .icon-box h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .icon-box p {
+    width: 33.33%;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  /* Add more styles as needed */
+
+  /*-------------------------------------------------------------
+  Carousel Log CSS 
+  -------------------------------------------------------------*/
+  
+ 
+
+  .logoimg {
+    width: 100%;
+    height: 16em;
+    object-fit: cover;
+    opacity: 0.5;
+    transition: 0.3s;
+    filter: grayscale(100);
+  }
+  .logoimg:hover-effect {
+    filter: none;
+    opacity: 1;
+  }
+
+  /* .logoimg:: {
+   
+  }
+   */
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 320px;
+    margin: auto 1rem;
+    text-align: center;
+    font-family: arial;
+  }

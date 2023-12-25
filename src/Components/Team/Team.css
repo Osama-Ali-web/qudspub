@@ -1,0 +1,108 @@
+/* Team Page Css Start */
+.nav-color
+{
+  color: #c52222 !important;
+  font-size: 16px;
+ 
+}
+.team-member-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #777777;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(115, 31, 31, 0.3);
+  padding: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.team-member-card:hover {
+  background-color: #db34b7; /* Change the color to your desired hover color */
+}
+
+.team-member-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.team-member-info h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons lin {
+  color: #333;
+  margin: 0 10px;
+  font-size: 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons lin:hover {
+  color: #fff; /* Change the color to your desired hover color */
+}
+
+.social-icons fac {
+  margin-right: 1rem;
+  color: #287edb; /* Bootstrap primary color */
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons fac:hover {
+  color: #b30000; /* Bootstrap primary color - darker shade */
+}
+
+/* Team Page Css Ends Here */
+/* Team.css */
+.team-member-card {
+  margin: 20px;
+  overflow: hidden;
+  transform: scale(0.9);
+  transition: transform 0.3s ease-in-out;
+}
+
+.team-member-card:hover {
+  transform: scale(1);
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.card-text {
+  color: #d7d7d7;
+}
+
+
+
+/* Team Css Strart */
+
+/* Team.css */
+.team-carousel {
+  max-width: 1080px;
+  margin: auto;
+}
+
+.team-member-card {
+  margin: 20px;
+}
+
