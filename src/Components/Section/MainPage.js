@@ -1,5 +1,5 @@
 import React from "react";
-// import '../Home Page/Home.css'
+import '../Home Page/Home.css'
 import { Link } from "react-router-dom";
 // import {Home} from "../Home Page/Home";
 import "./Main.css";
@@ -25,8 +25,8 @@ export const Mainpage = () => {
             <Row className="text-center">
               <Col className="py-4">
                 <h1
-                  className="fs-1 mt-5 fw-bold"
-                  style={{ color: "#ffeb05", fontFamily: "fantasy" }}
+                  className="fs-1 mt-5 fw-bold title"
+                  id="title"
                 >
                   Quds Publisher's
                 </h1>

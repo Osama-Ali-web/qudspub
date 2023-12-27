@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* contact inner section styles */
@@ -43,17 +43,12 @@
   }
   
   .section-title h2 {
-    color: #1d1f21;
-    font-family: sans-serif;
+    color: #d7f708;
     font-weight: 700;
     font-size: 36px;
     text-decoration: none;
   }
   
-  .section-title p {
-    font-size: 18px;
-    color: #1d1f21;
-  }
   
   .icon-box {
     /* background: #fff; */

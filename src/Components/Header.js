@@ -1,21 +1,17 @@
-import React from 'react';
+import React from "react";
 import "../App.css";
 import "./Nav.css";
-
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import "../index.css";
+import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
 import logo from "../img/testimonials/favicon.png";
 const Header = () => {
-
-
-    
-
   return (
     <>
       <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/main">
-            <img src={logo} className="mt-6 pb-2" alt="Logo" />
+            <img src={logo} className="mt-6 pb-2" alt="Logo" id="title"/>
           </Link>
           <button
             className="navbar-toggler"
@@ -24,6 +20,7 @@ const Header = () => {
             data-bs-target="#offcanvasDarkNavbar"
             aria-controls="offcanvasDarkNavbar"
             aria-label="Toggle navigation"
+            id="title"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -42,62 +39,53 @@ const Header = () => {
                 className="btn-close btn-close-white"
                 data-bs-dismiss="offcanvas"
                 aria-label="Close"
+                id="title"
               ></button>
             </div>
-            <div className="offcanvas-body " >
-              <ul className="navbar-nav justify-content-center flex-grow-1 pe-3" >
+            <div className="offcanvas-body ">
+              <ul className="navbar-nav justify-content-center flex-grow-1 pe-3">
                 <li className="nav-item" tabIndex={0}>
                   <Link
-              className="nav-link" id="RouterNavLink"
-                    aria-current="page"
+                    className="nav-link"
+                    id="title" 
+                    // aria-current="page"
                     to="/home"
                   >
                     Home
                   </Link>
                 </li>
-                
+
                 <li className="nav-item" tabIndex={1}>
-                  <Link className="nav-link" to="/service">
+                  <Link className="nav-link" to="/service" id="title">
                     Service
                   </Link>
                 </li>
-                                <li className="nav-item" tabIndex={2}>
-                  <Link className="nav-link" to="/project">
+                <li className="nav-item" tabIndex={2}>
+                  <Link className="nav-link" to="/project" id="title">
                     Project
                   </Link>
                 </li>
 
-{/* ---------------Dropdown Team --------------------------- */}
-<NavDropdown
-              id="nav-dropdown-dark-example"
-              title="Team"
-              menuVariant="dark"
-            >
-              <NavDropdown.Item to="/team" tabIndex={3}>
-              <Link to="/team">
-                Team
-                </Link>
-            
-                </NavDropdown.Item>
-              <NavDropdown.Item to="/collaboratives" tabIndex={4}>
-              <Link to="/collaboratives">
-              Collaboratives
-                </Link>
-              </NavDropdown.Item>
-              <NavDropdown.Item to="/events" tabIndex={5}>
-              <Link to="/events">
-                Events
-              
-                </Link>
-                </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="/faqs" tabIndex={6}>
-              <Link to="/faqs">
-              FAQ's
-                </Link>
-              </NavDropdown.Item>
-            </NavDropdown>
-
+                {/* ---------------Dropdown Team --------------------------- */}
+                <NavDropdown
+                  id="title"
+                  title="Team"
+                  menuVariant="dark"
+                >
+                  <NavDropdown.Item to="/team" tabIndex={3}>
+                    <Link to="/team" id="title">Team</Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item to="/collaboratives" tabIndex={4}>
+                    <Link to="/collaboratives" id="title">Collaboratives</Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item to="/events" tabIndex={5}>
+                    <Link to="/events" id="title">Events</Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item to="/faqs" tabIndex={6}>
+                    <Link to="/faqs" id="title">FAQ's</Link>
+                  </NavDropdown.Item>
+                </NavDropdown>
 
                 {/* <li className="nav-item dropdown">
           <Link 
@@ -111,31 +99,35 @@ const Header = () => {
             <li><Link className="dropdown-item" to="#">Gallery</Link></li>
           </ul>
         </li> */}
-                
+
                 <li className="nav-item" tabIndex={7}>
-                  <Link className="nav-link" to="/about">
+                  <Link className="nav-link" to="/about" id="title">
                     About
                   </Link>
                 </li>
 
                 <li className="nav-item" tabIndex={8}>
-                  <Link className="nav-link" to="/contact">
+                  <Link className="nav-link" to="/contact" id="title">
                     Contact
                   </Link>
                 </li>
               </ul>
               <form className="d-flex" role="search" tabIndex={9}>
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-        <button className="btn btn-outline-primary" type="submit">Search</button>
-      </form>
-
+                <input
+                  className="form-control me-2 bg-dark"
+                
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button className="btn btn-outline-primary" type="submit" id="title">
+                  Search
+                </button>
+              </form>
             </div>
           </div>
         </div>
       </nav>
-
-
-
     </>
   );
 };

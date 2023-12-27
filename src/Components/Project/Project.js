@@ -14,8 +14,8 @@ export const Project = () => {
             <Row className="text-center">
               <Col className="py-4">
                 <h1
-                  className="fs-1 mt-5 fw-bold"
-                  style={{ color: "#ffeb05", fontFamily: "fantasy" }}
+                  className="fs-1 mt-5 fw-bold title"
+                  id="title"
                 >
                   Projects
                 </h1>

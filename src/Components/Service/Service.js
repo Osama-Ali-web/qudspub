@@ -4,6 +4,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import "react-bootstrap-icons";
 import "./Service.css";
+import "../../index.css";
 import CarouselLogo from "./CarouselLogo";
 import { imageData,  responsive } from "./data";
 import { Row, Col } from 'react-bootstrap';
@@ -27,7 +28,7 @@ export const Service = () => {
             <div className="container py-3">
                 <Row className="text-center">
                     <Col className="py-4">
-                        <h1 className="fs-1 mt-5 fw-bold" style={{color:'#ffeb05', fontFamily:'fantasy'}}>Our Services</h1>
+                        <h1 className="fs-1 mt-5 fw-bold title" id="title" >Our Services</h1>
                     </Col>
                 </Row>
             </div>
@@ -37,14 +38,13 @@ export const Service = () => {
 {/* ------------------------------------------------------ */}
 
 {/* <!-- ======= Services Section ======= --> */}
-     <section id="services" className="services">
-    <div className="container-fluid" data-aos="fade-up" style={{backgroundColor: 'rgb(210, 221, 241)'}}>
+     <section id="services" className="services bg-black" >
+    <div className="container-fluid" data-aos="fade-up" >
 <div className="section-title">
-          <h2>Services</h2>
-          <p>Check our Services</p>
+          <h2>Check Our Services ----------</h2>
         </div>
 {/* ------------------ Service Card layout Start --------------------- */}
-<div className="card-group justify-content-center pt-5 p-5 bg-black">
+<div className="card-group justify-content-center pt-5">
   <div className="col">
     <div className="card"> 
     <div className="icon"><i className="fa fas-dribbble"></i></div>
@@ -77,7 +77,7 @@ export const Service = () => {
 {/* ------------------------------------------------------------ */}
 
 {/* -------------------------- Second Group Services --------------------------------- */}
-<div className="card-group bg-black p-5">
+<div className="card-group pt-5">
   <div className="col">
     <div className="card">
       <img src="..." className="card-img-top" alt="..." />

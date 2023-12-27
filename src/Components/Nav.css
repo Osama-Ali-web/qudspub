@@ -1,10 +1,9 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family:'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
-
 
 /* Custom CSS for the navbar */
 .navbar {
@@ -18,22 +17,21 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.nav-logo, img{
+.nav-logo,
+img {
   width: 75px;
   height: 70px;
   position: sticky;
-  
-
 }
 
-.nav-menu{
+.nav-menu {
   display: flex;
   justify-content: flex-end;
   list-style: none;
   width: 80%;
 }
 
-.nav-item .nav-links{
+.nav-item .nav-links {
   text-decoration: none;
   color: #fff;
   font-size: 20px;
@@ -41,7 +39,8 @@
   margin: 0 5px;
   cursor: pointer;
 }
-.nav-item,.nav-links:hover{
+.nav-item,
+.nav-links:hover {
   text-decoration: none;
   color: #d5bc05;
   font-size: 20px;
@@ -50,126 +49,110 @@
   cursor: pointer;
 }
 
-
-
-.nav-icon,.icon{
+.nav-icon,
+.icon {
   display: none;
 }
 
+@media screen and (max-width: 780px) {
+  .nav-logo {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .nav-menu-active {
+    position: absolute;
+    display: block;
 
-@media screen and  (max-width: 780px){
- .nav-logo{
-  display: flex;
-  position: absolute;
-  top: 15px;
-  left: 35px;
- }
- .nav-menu  {
-  display: none;
+    list-style: none;
+    background-color: #8ea029a4;
+    left: 0;
+    top: 75px;
+    transition: all 0.4s ease-out;
+    width: 100%;
+  }
+
+  .nav-item,
+  .nav-links {
+    color: white;
+    text-align: center;
+    padding: 9px;
+    width: 100%;
+    transition: all 0.5s ease;
+  }
+
+  .nav-icon,
+  .icon {
+    position: absolute;
+    display: block;
+    font-size: 32px;
+    color: #eeff30;
+    background-color: #222;
+    border: none;
+    outline: none;
+    top: 15px;
+    right: 25px;
+  }
 }
-.nav-menu-active{
-  position: absolute;
-  display: block;
 
-  list-style: none;
-  background-color: #8ea029a4;
-  left: 0;
-  top: 75px;
-  transition: all 0.4s ease-out;
-  width: 100%;
-}
+/* Footer */
 
-.nav-item, .nav-links{
-  color: white;
-  text-align: center;
-  padding: 9px;
-  width: 100%;
-  transition: all 0.5s ease;
-}
- 
-.nav-icon, .icon{
-  position: absolute;
-  display: block;
-  font-size: 32px;
-  color: #eeff30;
-  background-color: #222;
-  border: none;
-  outline: none;
-  top: 15px;
-  right: 25px;
-
-}
-  
-}
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    /* Footer */
-    
-   /* General Styling for the Footer */
+/* General Styling for the Footer */
 .footer {
- 
-  width: 100%;  /* Full width of the viewport */
+  width: 100%; /* Full width of the viewport */
   /* color: #fff;   */
   /* White text color */
-  padding: 50px 0 20px 0;  /* Padding around the content */
-
+  padding: 50px 0 20px 0; /* Padding around the content */
 }
 
 /* Styling for Footer Title */
 .footer-title {
-  position: relative;  /* Positioned relative to its normal position */
-  color: #ffeb05;  /* White text color */
-  font-size: 24px;  /* Font size of the title */
-  font-weight: 600;  /* Bold font weight */
-  margin-top: 5px;  /* Small top margin */
-  margin-bottom: 20px;  /* Larger bottom margin */
-  border-bottom: 1px solid #4e4e4e;  /* Border at the bottom */
+  position: relative; /* Positioned relative to its normal position */
+  color: #ffeb05; /* White text color */
+  font-size: 24px; /* Font size of the title */
+  font-weight: 600; /* Bold font weight */
+  margin-top: 5px; /* Small top margin */
+  margin-bottom: 20px; /* Larger bottom margin */
+  border-bottom: 1px solid #4e4e4e; /* Border at the bottom */
 }
 
 .footer-title:after {
-  position: absolute;  /* Positioned absolutely */
-  content: '';  /* Empty content */
-  left: 0;  /* Positioned to the left */
-  bottom: 0;  /* Positioned at the bottom */
-  width: 30px;  /* Width of the line */
-  height: 4px;  /* Height of the line */
-  background: #ff304d;  /* Red background color */
+  position: absolute; /* Positioned absolutely */
+  content: ""; /* Empty content */
+  left: 0; /* Positioned to the left */
+  bottom: 0; /* Positioned at the bottom */
+  width: 30px; /* Width of the line */
+  height: 4px; /* Height of the line */
+  background: #ff304d; /* Red background color */
 }
 
 /* Styling for Footer Links */
 .footer-links a {
-  padding: 10px 0;  /* Padding around each link */
-  border-bottom: 1px solid #404040;  /* Border below each link */
-  color: #fff;  /* White text color */
-  display: block;  /* Display as a block */
-  -webkit-transition: color 0.5s ease-in-out;  /* Transition effect for color */
-  -o-transition: color 0.5s ease-in-out;  /* Transition effect for color */
-  transition: color 0.5s ease-in-out;  /* Transition effect for color */
-  text-decoration: none;  /* No underlines for links */
+  padding: 10px 0; /* Padding around each link */
+  border-bottom: 1px solid #404040; /* Border below each link */
+  color: #fff; /* White text color */
+  display: block; /* Display as a block */
+  -webkit-transition: color 0.5s ease-in-out; /* Transition effect for color */
+  -o-transition: color 0.5s ease-in-out; /* Transition effect for color */
+  transition: color 0.5s ease-in-out; /* Transition effect for color */
+  text-decoration: none; /* No underlines for links */
 }
 
 .footer-links a:hover {
-  color: #ffeb05;  /* Red color on hover */
+  color: #ffeb05; /* Red color on hover */
 }
 /* Styling for the About Us Section */
 .white-text {
-  color: #fff;  /* White text color */
+  color: #fff; /* White text color */
 }
 
 /* Styling for Social Links */
 .footer-social-links li {
-  display: inline-block;  /* Display links in a row */
+  display: inline-block; /* Display links in a row */
   color: bisque;
 }
 
@@ -182,46 +165,45 @@
   padding: 3px;
   border: 1px solid #ffc10724;
   border-radius: 1px solid #ffc107;
-  text-align: center;  /* Center text within the link */
-  color: #ffeb05;  /* White text color */
-  line-height: 1;  /* Line height of the text */
-  -webkit-transition: background 0.3s ease-in-out;  /* Transition effect for background */
-  -o-transition: background 0.3s ease-in-out;  /* Transition effect for background */
-  transition: background 0.3s ease-in-out;  /* Transition effect for background */
+  text-align: center; /* Center text within the link */
+  color: #ffeb05; /* White text color */
+  line-height: 1; /* Line height of the text */
+  -webkit-transition: background 0.3s ease-in-out; /* Transition effect for background */
+  -o-transition: background 0.3s ease-in-out; /* Transition effect for background */
+  transition: background 0.3s ease-in-out; /* Transition effect for background */
   /* background: rgba(255, 214, 30, 0.309);   */
 }
 
 .footer-social-links a:hover {
-  background: #eeff30;  /* Red background on hover */
+  background: #eeff30; /* Red background on hover */
 }
 
 /* Styling for Footer Bottom */
 .footer-bottom {
-  width: 100%;  /* Full width of the container */
-  padding: 20px 0;  /* Padding at the top and bottom */
-  text-align: center;  /* Center text within the container */
-  border-top:gray 1px solid ;
+  width: 100%; /* Full width of the container */
+  padding: 20px 0; /* Padding at the top and bottom */
+  text-align: center; /* Center text within the container */
+  border-top: gray 1px solid;
 }
 
 /* Container for Footer Content */
 .container {
-  border-top: 2px solid #ffeb05;  /* Red border at the top */
+  border-top: 2px solid #ffeb05; /* Red border at the top */
 }
 
-.design{
+.design {
   text-decoration: none;
   color: #ffffff;
   font-size: large;
   font-family: sans-serif;
- /* font-variant: small-caps; */
+  /* font-variant: small-caps; */
 }
 
-.design:hover{
+.design:hover {
   text-decoration: none;
   color: #ffc107;
   font-size: large;
   font-family: sans-serif;
   font-variant: small-caps;
   letter-spacing: 2px;
-  
 }

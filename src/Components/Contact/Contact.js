@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Col, Row } from "react-bootstrap";
 import User from "./user.svg";
 import "./Contact.css";
-
+import "../../index.css";
 import Button from "react-bootstrap/Button";
 import Select from "react-select";
 import Collapse from "react-bootstrap/Collapse";
@@ -47,7 +47,8 @@ export const Contact = () => {
             <div className="container py-3">
               <Row className="text-center">
                 <Col className="py-4">
-                  <h1 className="fs-1 mt-5 fw-bold" style={{color:'#ffeb05', fontFamily:'fantasy'}}>
+                  <h1 className="fs-1 mt-5 fw-bold title" id="title">
+
                     Contact Us
                   </h1>
                 </Col>

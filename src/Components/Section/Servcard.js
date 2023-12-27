@@ -7,7 +7,7 @@ export const Servcard = (props) => {
      const { key, name, description, img} = props.service
   return (
            // single service card
-           <div className="col-md-3 p-0">
+           <div className="col-md-3 p-1">
            <Card  className="m-2">
                <Card.Img variant="top" src={img} />
                <Card.Body>

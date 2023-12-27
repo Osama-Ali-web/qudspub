@@ -11,7 +11,7 @@
 /* Page title styles */
 .inner-banner {
   background-color: #010056 !important;
-  /* background-image: url("./hero-bg2.jpg") center; */
+  background-image: url("./hero-bg2.jpg") center;
   height: 50vh !important;
   background-repeat: no-repeat;
   background-position: cover;
@@ -41,7 +41,6 @@
   width: 100%;
   height: 28vh !important;
   padding-top: 50px;
-  font-family: "Montserrat", sans-serif;
   font-size: 32px;
   border: 1px solid yellow;
   border-radius: 6px;
@@ -54,4 +53,23 @@
     0 6px 20px 0 rgba(255, 255, 255, 0.19);
   text-align: center;
   font-size: large;
+}
+
+.title{
+  color: #ffeb05; 
+  font-family: 'Roboto', sans-serif;
+}
+
+#title {
+  color: red;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50%{
+    color: rgb(204, 255, 0);
+  }
+  100%{
+    color:burlywood;
+  }
 }

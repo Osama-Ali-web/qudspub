@@ -12,7 +12,7 @@ export const Blog = () => {
             <div className="container py-3">
                 <Row className="text-center">
                     <Col className="py-4">
-                        <h1 className="fs-1 mt-5 fw-bold" style={{color:'#ffeb05', fontFamily:'fantasy'}}>Blogs</h1>
+                        <h1 className="fs-1 mt-5 fw-bold title" id="title">Blogs</h1>
                     </Col>
                 </Row>
             </div>

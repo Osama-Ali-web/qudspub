@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family:'Playfair Display', serif;
+  font-family:'Roboto', sans-serif;
 }
 
 /* Title Css Start */
@@ -14,7 +14,6 @@
   padding-top:50px;
   background-color: rgba(185, 7, 30, 0.5);
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
   font-variant: inherit;
   font-size: normal;
   border: 1px solid yellow;

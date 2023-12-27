@@ -31,7 +31,7 @@ const Footer = () => {
                     <div className="footer-links">
                       <Link to="/contact">Peer Review Submission</Link>
                       <Link to="/contact">Substantive Editing Service</Link>
-                      <Link to="#">Content writing</Link>
+                      <Link to="#" >Content writing</Link>
                       <Link to="#">Journal Submission Assistance</Link>
                       <Link to="/contact">Manuscript Foramting</Link>
                       <Link to="#">Editorial Contact Support</Link>
