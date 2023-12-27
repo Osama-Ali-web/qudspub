@@ -36,7 +36,7 @@ export const About = () => {
             data-aos="fade-up"
             data-aos-delay="150"
           >
-            <div className="col-xl-6 col-lg-8">
+            <div className="col-12 col-xl-10 col-lg-8">
               <h1 style={{ color: "yellowgreen" }}>
                 Quds Publisher<span>'s</span>
               </h1>
