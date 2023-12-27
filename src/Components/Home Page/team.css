@@ -3,15 +3,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family:'Playfair Display', serif;
 }
-body {
+/* body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   font-family: "Roboto", arial, sans-serif;
   color: #222
-}
+} */
 #login-container {
   height: 400px;
   width: 350px;

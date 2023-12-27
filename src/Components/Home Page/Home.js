@@ -44,7 +44,7 @@ export const Home = () => {
         <Container className="py-5 border-bottom border-danger">
           <Row className="">
             {/*  welcome text  */}
-            <Col sm={12} md={8}>
+            <Col sm={12} md={6}>
               <div className="m-3">
                 <h5 className="text-danger fw-normal">Welcome to your</h5>
                 <h1 className="fw-bold">QUDS PUBLISHER</h1>
