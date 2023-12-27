@@ -14,14 +14,14 @@ const TeamMemcard = ({
 }) => {
   return (
     <>
-      <div className="col-xl-4 col-lg-6 mb-2 p-2">
+      <div className="col-12 col-xl-4 col-lg-6 mb-5">
         <div className="card">
-          <img src={image} className="card-img-top rounded-circle" alt={name} />
+          <img src={image} className="card-img-top rounded-circle mb-2 " alt={name} />
           <div className="card-body">
             <h5 className="card-title">{name}</h5>
             <p className="card-text">{position}</p>
             <p className="card-text">{description}</p>
-            <Link to={profileLink} className="btn btn-primary">
+            <Link to={profileLink} className="mb-4 btn btn-primary">
               View Profile
             </Link>
             <div className="social-icons p-2 ">

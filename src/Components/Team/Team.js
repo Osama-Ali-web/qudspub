@@ -18,11 +18,11 @@ export const Team = () => {
       linkedin: 'https://www.linkedin.com/in/osama-alibs',
       twitter: 'https://twitter.com/osamaali323',
       github: 'https://github.com/osamaaliweb',
-      image: '../../img/team/team-1.jpg', // Provide the path to the image
+      image: '../../img/team/team-0 .jpg', // Provide the path to the image
     },
     {
-      name: 'Osama Ali',
-      position: 'Web Developer',
+      name: 'Awais',
+      position: 'Researcher',
       // profileLink: '/john-doe',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       linkedin: 'https://www.linkedin.com/in/osama-alibs',
@@ -32,8 +32,8 @@ export const Team = () => {
     },
   
     {
-      name: 'John Doe',
-      position: 'Developer',
+      name: 'Syed Luqman Ali',
+      position: 'Researcher & Editor',
       // profileLink: '/john-doe',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       linkedin: 'https://www.linkedin.com/in/johndoe',
@@ -42,8 +42,8 @@ export const Team = () => {
       image: '../../img/team/team-2.jpg', // Provide the path to the image
     },
     {
-      name: 'John Doe',
-      position: 'Developer',
+      name: 'Muhammad Waseef',
+      position: '---------------------',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       linkedin: 'https://www.linkedin.com/in/johndoe',
       twitter: 'https://twitter.com/johndoe',
@@ -51,8 +51,8 @@ export const Team = () => {
       image: '../../img/team/team-3.jpg',
     },
     {
-      name: 'John Doe',
-      position: 'Developer',
+      name: 'Kashif Khan',
+      position: 'Reviewer',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       linkedin: 'https://www.linkedin.com/in/johndoe',
       twitter: 'https://twitter.com/johndoe',
@@ -78,7 +78,7 @@ export const Team = () => {
   <Carousel>
     {teamMembers.map((member, index) => (
       <Carousel.Item key={index}>
-        <div className="d-flex justify-content-around mt-5">
+        <div className="d-flex flex-column justify-content-between mt-5">
           <div className='row'>
           {teamMembers.slice(index, index + 3).map((item) => (
             <TeamMemberCard key={item.name} {...item} />

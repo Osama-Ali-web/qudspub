@@ -1,6 +1,8 @@
 import React from 'react'
 import '../../index.css'
 import {Row, Col} from 'react-bootstrap';
+import Card from "react-bootstrap/Card";
+import CardGroup from "react-bootstrap/CardGroup";
 
 
 export const Collaboratives = () => {
@@ -17,6 +19,110 @@ export const Collaboratives = () => {
             </div>
         </div>
     </div>
+
+{/* --------------------------Card Group-1 --------------------------- */}
+<CardGroup className="mt-5 p-1 bg-grey">
+{/* ----------------------------Card 1 ----------------------------- */}
+        <Card className="border rounded border-warning " >
+          <Card.Img
+            variant="top"
+            src="../../img/portfolio/portfolio-1.jpg"
+            height={"100%"}
+          />
+          <Card.Body>
+            <Card.Title>published Work</Card.Title>
+          </Card.Body>
+        </Card>
+
+        {/* ---------------------------------- Card 2 -------------------------------------- */}
+        <Card className="border rounded border-warning">
+          <Card.Img
+            variant="top"
+            src="../../img/portfolio/portfolio-2.jpg"
+            height={"100%"}
+          />
+          <Card.Body>
+            <Card.Title>Selected journal</Card.Title>
+          </Card.Body>
+        </Card>
+        {/* ----------------------------------- Card 3 ---------------------------------- */}
+        <Card className="border rounded border-warning">
+          <Card.Img
+            variant="top"
+            src="../../img/portfolio/portfolio-3.jpg"
+            height={"100%"}
+          />
+          <Card.Body>
+            <Card.Title>journal Matrics</Card.Title>
+          </Card.Body>
+        </Card>
+
+        {/* ------------------------------- Card 4 ------------------------------------------ */}
+        <Card className="border rounded border-warning">
+          <Card.Img
+            variant="top"
+            src="../../img/portfolio/portfolio-4.jpg"
+            height={"100%"}
+          />
+          <Card.Body>
+            <Card.Title>Recognition System</Card.Title>
+          </Card.Body>
+        </Card>
+      </CardGroup>
+
+
+{/* --------------------------Card Group-2 --------------------------- */}
+<CardGroup className="mt-5 p-1">
+{/* ----------------------------Card 1 ----------------------------- */}
+        <Card className="border rounded border-warning" >
+          <Card.Img
+            variant="top"
+            src="../../img/portfolio/portfolio-1.jpg"
+            height={"100%"}
+          />
+          <Card.Body>
+            <Card.Title>published Work</Card.Title>
+          </Card.Body>
+        </Card>
+
+        {/* ---------------------------------- Card 2 -------------------------------------- */}
+        <Card className="border rounded border-warning">
+          <Card.Img
+            variant="top"
+            src="../../img/portfolio/portfolio-2.jpg"
+            height={"100%"}
+          />
+          <Card.Body>
+            <Card.Title>Selected journal</Card.Title>
+          </Card.Body>
+        </Card>
+        {/* ----------------------------------- Card 3 ---------------------------------- */}
+        <Card className="border rounded border-warning">
+          <Card.Img
+            variant="top"
+            src="../../img/portfolio/portfolio-3.jpg"
+            height={"100%"}
+          />
+          <Card.Body>
+            <Card.Title>journal Matrics</Card.Title>
+          </Card.Body>
+        </Card>
+
+        {/* ------------------------------- Card 4 ------------------------------------------ */}
+        <Card className="border rounded border-warning">
+          <Card.Img
+            variant="top"
+            src="../../img/portfolio/portfolio-4.jpg"
+            height={"100%"}
+          />
+          <Card.Body>
+            <Card.Title>Recognition System</Card.Title>
+          </Card.Body>
+        </Card>
+      </CardGroup>
+
+
+
     
     </>
   )
