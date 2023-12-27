@@ -31,7 +31,7 @@ img {
   width: 80%;
 }
 
-.nav-item .nav-links {
+.nav-item {
   text-decoration: none;
   color: #fff;
   font-size: 20px;
@@ -39,10 +39,12 @@ img {
   margin: 0 5px;
   cursor: pointer;
 }
-.nav-item,
-.nav-links:hover {
+
+.nav-item:hover {
   text-decoration: none;
   color: #d5bc05;
+  border-bottom: #eeff30 2px solid;
+  border-radius: 4px outset;
   font-size: 20px;
   padding: 1px 4px;
   margin: 0 5px;
