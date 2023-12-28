@@ -1,5 +1,6 @@
 import React from "react";
 import "./Nav.css";
+import '../index.css';
 import Logo from "../img/testimonials/favicon.png";
 import { Link } from "react-router-dom";
 import "react-bootstrap-icons";
@@ -65,19 +66,19 @@ const Footer = () => {
                       <Link to="#">Journal Publication</Link>
                     </div>
 
-                    <div className="footer-social-links ">
+                    <div className="footer-social-links " >
                       <li>
                         <Link to="#">
-                          <i className="bi bi-facebook" aria-hidden="true"></i>
+                          <i className="bi bi-facebook" id="title" aria-hidden="true"></i>
                         </Link>
                         <Link to="#">
-                          <i className="bi bi-twitter" aria-hidden="true"></i>
+                          <i className="bi bi-twitter" id="title" aria-hidden="true"></i>
                         </Link>
                         <Link to="#">
-                          <i className="bi bi-linkedin" aria-hidden="true"></i>
+                          <i className="bi bi-linkedin" id="title" aria-hidden="true"></i>
                         </Link>
                         <Link to="#">
-                          <i className="bi bi-github" aria-hidden="true"></i>
+                          <i className="bi bi-github" id="title" aria-hidden="true"></i>
                         </Link>
                       </li>
                     </div>
@@ -85,12 +86,13 @@ const Footer = () => {
                 </div>
               </div>
             </footer>
-            <div className="container-fluid footer-bottom">
+            <div className="container-fluid footer-bottom" id="title">
               Designed By{" "}
               <a
                 href="https://osama-ali.netlify.app/"
                 target="blank"
                 className="design"
+                id="title"
               >
                 Osama Ali
               </a>{" "}
