@@ -87,7 +87,8 @@ const Footer = () => {
               </div>
             </footer>
             <div className="container-fluid footer-bottom" id="title">
-              Designed By{" "}
+              Designed By
+                <i>🌹</i> 
               <a
                 href="https://osama-ali.netlify.app/"
                 target="blank"
