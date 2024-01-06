@@ -24,7 +24,7 @@ const Clientsec = () => {
             />
 
             <h5 className="mb-5">
-              John Doe <span role="img"  className="text-warning">⭐⭐⭐⭐⭐</span>
+              John Doe <span role="img" aria-label="stars"  className="text-warning">⭐⭐⭐⭐⭐</span>
             </h5>
             <div className="p-4 m-4">
               <Carousel.Caption className="text-muted p-2 mt-1 mb-5">
@@ -46,7 +46,7 @@ const Clientsec = () => {
               alt="Person 1"
             />
             <h5 className="mb-5">
-              John Doe <span role="img"  className="text-warning">⭐⭐⭐⭐⭐</span>
+              John Doe <span role="img" aria-label="stars" className="text-warning">⭐⭐⭐⭐⭐</span>
             </h5>
             <div className="p-4 m-4">
               <Carousel.Caption className="text-muted p-2 mt-1 mb-5">
@@ -66,7 +66,7 @@ const Clientsec = () => {
               alt="Person 1"
             />
             <h5 className="mb-5">
-              John Doe <span role="img" className="text-warning">⭐⭐⭐⭐⭐</span>
+              John Doe <span role="img" aria-label="stars" className="text-warning">⭐⭐⭐⭐⭐</span>
             </h5>
             <div className="p-4 mt-4">
               <Carousel.Caption className="text-muted p-2 mt-1 mb-5">
@@ -88,7 +88,7 @@ const Clientsec = () => {
               alt="Person 1"
             />
             <h5 className="mb-5">
-              John Doe <span role="img" className="text-warning">⭐⭐⭐⭐⭐</span>
+              John Doe <span role="img" aria-label="stars"  className="text-warning">⭐⭐⭐⭐⭐</span>
             </h5>
             <div className="p-4 mt-4">
               <Carousel.Caption className="text-muted p-2 mt-2 mb-5">
@@ -109,7 +109,7 @@ const Clientsec = () => {
               alt="Person 1"
             />
             <h5 className="mb-5">
-              John Doe <span role="img" className="text-warning">⭐⭐⭐⭐⭐</span>
+              John Doe <span role="img" aria-label="stars"  className="text-warning">⭐⭐⭐⭐⭐</span>
             </h5>
             <div className="p-4 mt-4">
               <Carousel.Caption className="text-muted p-2 mt-1 mb-5">
@@ -130,7 +130,7 @@ const Clientsec = () => {
               alt="Person 1"
             />
             <h5 className="mb-5">
-              John Doe <span role="img" className="text-warning">⭐⭐⭐⭐⭐</span>
+              John Doe <span role="img" aria-label="stars"  className="text-warning">⭐⭐⭐⭐⭐</span>
             </h5>
             <div className="p-4 mt-4">
               <Carousel.Caption className="text-muted p-2 mt-1 mb-5">
@@ -151,7 +151,7 @@ const Clientsec = () => {
               alt="Person 1"
             />
             <h5 className="mb-4">
-              John Doe <span role="img" className="text-warning">⭐⭐⭐⭐⭐</span>
+              John Doe <span role="img" aria-label="stars"  className="text-warning">⭐⭐⭐⭐⭐</span>
             </h5>
             <div className="p-4 mt-4">
               <Carousel.Caption className="text-muted p-2 mt-2 mb-4">
