@@ -12,15 +12,16 @@
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../../img/hero-bg.jpg") middle center ;
+  background: url("../../img/hero-bg.jpg") top middle no-repeat ;
   background-size: cover;
   position: relative;
+  align-items: center;
 }
 
 #hero:before {
   opacity: 1;
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(42, 42, 42, 0.6);
   position: absolute;
   bottom: 0;
   top: 0;

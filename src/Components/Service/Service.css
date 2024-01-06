@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap");
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* contact inner section styles */
@@ -95,7 +97,7 @@
     transition: 0.3s;
     filter: grayscale(100);
   }
-  .logoimg:hover-effect {
+  .logoimg:hover{
     filter: none;
     opacity: 1;
   }
@@ -105,10 +107,10 @@
   }
    */
   
-  .card {
+  /* .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 320px;
     margin: auto 1rem;
     text-align: center;
     font-family: arial;
-  }
+  } */

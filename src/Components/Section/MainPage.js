@@ -1,7 +1,7 @@
 import React from "react";
 import '../Home Page/Home.css'
 import { Link } from "react-router-dom";
-// import {Home} from "../Home Page/Home";
+
 import "./Main.css";
 import "../About/About.css";
 import "../../index.css";
@@ -18,6 +18,7 @@ export const Mainpage = () => {
   ));
   return (
     <>
+
       {/* -------------Title Of The Page */}
       <div className="inner-banner img-bg">
         <div className="overlay ">
@@ -35,7 +36,9 @@ export const Mainpage = () => {
           </div>
         </div>
       </div>
+      
 
+{/* --------------------Page Layout Start ---------------------------*/}
       <div className="p-2 bg-black rounded-3 mt-5 justify-content-center "></div>
       <div className="row my-5 mx-3 rounded-3 justify-content-center">
         {/* Card 1 */}
@@ -87,6 +90,8 @@ export const Mainpage = () => {
       {/* ------------------------------------------------------------------------ */}
 
       <br />
+
+
       {/* <!-- ======= Hero Section ======= --> */}
 
       <section id="hero" className="d-flex justify-content-center">
@@ -180,9 +185,9 @@ export const Mainpage = () => {
           </div>
         </div>
       </section>
-      {/* End Hero  */}
+      {/*---------------------------------- End Hero ------------------------------ */}
 
-      {/* Clients carousel Logos */}
+      {/*----------------------- Clients carousel Logos ----------------------------*/}
       <div className="container mt-5">
         <h1 className="text-center" style={{ color: "goldenrod" }}>
 
@@ -193,10 +198,18 @@ export const Mainpage = () => {
           {logo}
         </Carousel>
       </div>
+      {/* --------------------End--------------------------- */}
 
+      {/* ///////////////////////// Testemonial section /////////////////////// */}
       <div className="container-fluid mt-5">
         <Clientsec />
       </div>
+
+
+
+
+
+
     </>
   );
 };

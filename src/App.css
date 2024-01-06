@@ -1,31 +1,17 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap");
 :root {
   /* variable color */
   .bg-color {
     color: #091827;
   }
-  .heading-color {
-    color: #ffffff !important;
-  }
-  .text-color {
-    color: #a9b1b8 !important;
-  }
-  .hl-color {
-    color: #cb0000 !important;
-  }
-  .nav-color {
-    color: #010056 !important;
-  }
-  .link-color {
-    color: #2424b7 !important;
-  }
+ 
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .pages {

@@ -40,18 +40,14 @@ export const Service = () => {
 {/* <!-- ======= Services Section ======= --> */}
      <section id="services" className="services bg-black" >
     <div className="container-fluid" data-aos="fade-up" >
-<div className="section-title">
-          <h2>Check Our Services ----------</h2>
-        </div>
 {/* ------------------ Service Card layout Start --------------------- */}
-<div className="card-group justify-content-center pt-5">
+<div className="card-group pt-2">
   <div className="col">
-    <div className="card"> 
-    <div className="icon"><i className="fa fas-dribbble"></i></div>
-      <img src="../../img/download.jpg" className="card-img-top" alt="..." />
+    <div className="card border-warning mb-3">
+      <img src="../../img/hero-bgau.jpg" className="img" alt="..." />
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <h5 className="card-title" id="title">Peer Review Submission</h5>
+        <p className="card-text">Elevate your research to new heights with our peer review submission service, where our team of experts provide insightful feedback, rigorous evaluation, and unparalleled support to help your work stand out in the competitive academic landscape   </p>
       </div>
     </div>
   </div>
@@ -59,8 +55,8 @@ export const Service = () => {
     <div className="card">
       <img src="..." className="card-img-top" alt="..." />
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <h5 className="card-title" id="title">Substantive Editing Service</h5>
+        <p className="card-text">Transform your writing into a masterpiece with our substantive editing service, where our skilled editors delve deep into your work, refining your ideas, enhancing your language, and elevating your message to captivate and engage your readers like never before   </p>
       </div>
     </div>
   </div>
@@ -68,8 +64,8 @@ export const Service = () => {
     <div className="card">
       <img src="..." className="card-img-top" alt="..." />
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text bin to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title" id="title">Content writing</h5>
+<p className="card-text">Unleash the power of research with our top-notch research writing services, where our team of experts provide in-depth analysis, insightful perspectives, and exceptional writing skills to help you make breakthrough discoveries, establish your authority, and advance your academic or professional career   </p>
       </div>
     </div>
   </div>
@@ -77,13 +73,14 @@ export const Service = () => {
 {/* ------------------------------------------------------------ */}
 
 {/* -------------------------- Second Group Services --------------------------------- */}
-<div className="card-group pt-5">
+<div className="card-group justify-content-center pt-2">
   <div className="col">
-    <div className="card">
-      <img src="..." className="card-img-top" alt="..." />
+    <div className="card"> 
+    <div className="icon"><i className="fa fas-dribbble"></i></div>
+      <img src="../../img/download.jpg" className="card-img-top" alt="..." />
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <h5 className="card-title" id="title">Journal Submission Assistance</h5>
+        <p className="card-text">Unlock the doors to top-tier journals with our expert journal submission assistance services, where our team of experienced professionals provide comprehensive support, strategic guidance, and meticulous attention to detail to help you navigate the submission process with confidence and ease   </p>
       </div>
     </div>
   </div>
@@ -91,8 +88,8 @@ export const Service = () => {
     <div className="card">
       <img src="..." className="card-img-top" alt="..." />
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <h5 className="card-title" id="title">Manuscript Foramting</h5>
+        <p className="card-text">Manuscript Formatting and Artwork Editing provides researchers a manuscript fine-tuning service that fixes every flaw in a manuscript which helps your research for effortless journal submission.   </p>
       </div>
     </div>
   </div>
@@ -100,8 +97,8 @@ export const Service = () => {
     <div className="card">
       <img src="..." className="card-img-top" alt="..." />
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text additional content. This content is a little bit longer.</p>
+        <h5 className="card-title text-warning">Editorial Contact Support</h5>
+<p className="card-text">We offer a collaborative process that includes support from editorial team for both and pre and post submission. Trust us to handle your manuscript submission and increase your acceptance odds by 30%.   </p>
       </div>
     </div>
   </div>
