@@ -156,7 +156,7 @@ export const Contact = () => {
               </div>
             </div>
             <div className="row gap-0 d-flex">
-              <div className="col-auto col-xl-6 col-lg-6  col-md-6 col-sm-10">
+              <div className="col-xl-6 col-lg-6  col-md-6 col-sm-10">
                 <label>
                   Title<sup>*</sup>
                 </label>
@@ -166,7 +166,7 @@ export const Contact = () => {
                   placeholder="Enter your title"
                 />
               </div>
-              <div className="col-auto col-xl-6 col-lg-6  col-md-6 col-sm-10">
+              <div className="col-xl-6 col-lg-6  col-md-6 col-sm-10">
                 <label>
                   Article Type<sup>*</sup>
                 </label>
@@ -180,7 +180,7 @@ export const Contact = () => {
             </div>
 
             <div className="row gap-0 d-flex">
-              <div className="col-auto col-xl-6 col-lg-6  col-md-6 col-sm-10">
+              <div className="col-xl-6 col-lg-6  col-md-6 col-sm-10">
                    <label>
                   Classifications <sup>(optional)</sup>
                 </label>
@@ -190,7 +190,7 @@ export const Contact = () => {
                   <option>Material Sciences</option>
                 </select>
               </div>
-              <div className="col-auto col-xl-6 col-lg-6  col-md-6 col-sm-10">
+              <div className="col-xl-6 col-lg-6  col-md-6 col-sm-10">
                 <label>
                   Suggest Classification
                   <span>

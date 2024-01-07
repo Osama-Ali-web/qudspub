@@ -260,7 +260,7 @@
 
 .main_page{
   width: 78%;
-  margin: auto;
+  /* margin: auto; */
   display: flex;
   flex-direction: column;
   gap: 2.8em;
@@ -274,24 +274,24 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-.container {
+.container1 {
   max-width: 1300px;
-  margin: 0 auto;
+  /* margin: 10 auto; */
  
 }
 
 .main_btns{
   display: flex;
-  gap: 4em;
+  gap: 2em;
 }
 
 .secondarybtn{
   background-color: rgb(251, 248, 248);
-  font-size: 32px;
+  font-size: 23px;
   font-weight: 700;
-  line-height: 32px;
+  line-height: 20px;
   padding: 0.518em 1.21em;
-  border: none;
+  
   outline: none;
   border-radius: var(--sm-border-radius);
   color: rgb(30, 0, 0);
@@ -302,10 +302,8 @@
 }
 .secondarybtn:hover{
   background-color: var(--primary-btn-color);
- 
   border-radius: var(--sm-border-radius);
   cursor: pointer;
-
 }
 
 
@@ -314,9 +312,9 @@
   color: rgb(47, 35, 35);
   padding: 0.5em 1.5em;
   text-decoration: none;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 700;
-  line-height: 32px;
+  line-height: 20px;
   border-radius: var(--sm-border-radius);
   border: 1px solid black;
   outline: none;
@@ -326,7 +324,54 @@
 
 .primaryBtn:hover{
   background-color: var(--primary-btn-color);
-
   border-radius: var(--sm-border-radius);
   cursor: pointer;
 }
+
+@media (max-aspect-ratio: 1 / 1), (max-width: 900px){
+.main_page{
+    width: var(--d-width);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2.8em;
+    padding-block: 4em;
+}
+.primaryBtn{
+  color: var(--black);
+  background-color: var(--white);
+  border: var(--lg-border-radius);
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 15px;
+  outline: none;
+  text-decoration: none;
+}
+.primaryBtn:hover{
+  background-color: var(--primary-btn-color);
+  border-radius: var(--lg-border-radius);
+  cursor: pointer;
+}
+.secondarybtn{
+  color: var(--secondary-color);
+  background-color: var(--white);
+  border: var(--lg-border-radius);
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 15px;
+  outline: none;
+  text-decoration: none;
+}
+.secondarybtn:hover{
+  background-color: var(--primary-btn-color);
+  border-radius: var(--lg-border-radius);
+  cursor: pointer;
+}
+
+}
+
+

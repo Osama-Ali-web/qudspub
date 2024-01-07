@@ -4,7 +4,7 @@ import '../../index.css';
 const Banner = () => {
   return (
     <>
-      <div class="main_page container">
+      <div class="main_page container1">
         <div id="title">
           <h1>
             AL <span>QUD's</span>
@@ -18,7 +18,8 @@ const Banner = () => {
           without any worries. Take the leap and share your work with
           confidence.
         </p>
-        <div class="main_btns">
+        
+        <div class="main_btns d-flex g-0">
           <a class="secondarybtn" href="/contact">
             Submit Now
           </a>
