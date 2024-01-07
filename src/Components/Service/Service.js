@@ -38,7 +38,7 @@ export const Service = () => {
 {/* ------------------------------------------------------ */}
 
 {/* <!-- ======= Services Section ======= --> */}
-     <section id="services" className="services bg-black" >
+     <section id="services" className="services" >
     <div className="container-fluid" data-aos="fade-up" >
 {/* ------------------ Service Card layout Start --------------------- */}
 <div className="card-group pt-2">
@@ -53,7 +53,7 @@ export const Service = () => {
   </div>
   <div className="col">
     <div className="card">
-      <img src="..." className="card-img-top" alt="..." />
+      <img src="../../img/features.jpg" className="card-img-top" alt="..." />
       <div className="card-body">
         <h5 className="card-title" id="title">Substantive Editing Service</h5>
         <p className="card-text">Transform your writing into a masterpiece with our substantive editing service, where our skilled editors delve deep into your work, refining your ideas, enhancing your language, and elevating your message to captivate and engage your readers like never before   </p>
@@ -62,7 +62,7 @@ export const Service = () => {
   </div>
   <div className="col">
     <div className="card">
-      <img src="..." className="card-img-top" alt="..." />
+      <img src="../../img/back.jpg" className="card-img-top" alt="..." />
       <div className="card-body">
         <h5 className="card-title" id="title">Content writing</h5>
 <p className="card-text">Unleash the power of research with our top-notch research writing services, where our team of experts provide in-depth analysis, insightful perspectives, and exceptional writing skills to help you make breakthrough discoveries, establish your authority, and advance your academic or professional career   </p>
@@ -86,7 +86,7 @@ export const Service = () => {
   </div>
   <div className="col">
     <div className="card">
-      <img src="..." className="card-img-top" alt="..." />
+      <img src="../../img/features.jpg" className="card-img-top" alt="..." />
       <div className="card-body">
         <h5 className="card-title" id="title">Manuscript Foramting</h5>
         <p className="card-text">Manuscript Formatting and Artwork Editing provides researchers a manuscript fine-tuning service that fixes every flaw in a manuscript which helps your research for effortless journal submission.   </p>
@@ -95,7 +95,7 @@ export const Service = () => {
   </div>
   <div className="col">
     <div className="card">
-      <img src="..." className="card-img-top" alt="..." />
+      <img src="../../img/features.jpg" className="img" alt="..." />
       <div className="card-body">
         <h5 className="card-title text-warning">Editorial Contact Support</h5>
 <p className="card-text">We offer a collaborative process that includes support from editorial team for both and pre and post submission. Trust us to handle your manuscript submission and increase your acceptance odds by 30%.   </p>
@@ -111,7 +111,7 @@ export const Service = () => {
 <hr className='divider' />
     {/* ------------------- Slider Clients Logo------------------- */}
 
-    <div className="container-fluid p-5 g-2 bg-black">
+    <div className="container-fluid p-5 g-2 ">
     <h1 style={{color:'goldenrod'}} className='text-center'>Our Trusted Clients</h1>
     <Carousel showDots={true} responsive={responsive} transition="slide 3s">
       {logo}

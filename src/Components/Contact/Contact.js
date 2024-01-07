@@ -74,8 +74,8 @@ export const Contact = () => {
                     className="img"
                     src={User}
                     alt="Editor"
-                    width={18}
-                    height={18}
+                    width={14}
+                    height={15}
                   />
                   <h2>Auther Details:</h2>
                   </div>    
@@ -83,7 +83,7 @@ export const Contact = () => {
             </div>
 
             <div className="row gap-0 d-flex">
-              <div className="col-auto col-xl-4 col-lg-4  col-md-6 col-sm-10">
+              <div className="col-xl-4 col-lg-4  col-md-6 col-sm-10">
                 <label>
                   Auther First Name<sup>*</sup>
                 </label>
@@ -93,7 +93,7 @@ export const Contact = () => {
                   placeholder="Enter First Name"
                 />
               </div>
-              <div className="col-auto col-xl-4 col-lg-4  col-md-6 col-sm-10">
+              <div className="col-xl-4 col-lg-4  col-md-6 col-sm-10">
                 <label>
                   Auther Last Name<sup>*</sup>
                 </label>
@@ -103,7 +103,7 @@ export const Contact = () => {
                   placeholder="Enter Last Name"
                 />
               </div>
-              <div className="col-auto col-xl-4 col-lg-4  col-md-6 col-sm-10">
+              <div className="col-xl-4 col-lg-4  col-md-6 col-sm-10">
                 <label>
                   Auther Email<sup>*</sup>
                 </label>
@@ -118,7 +118,7 @@ export const Contact = () => {
 
             {/*Seconde Row   */}
             <div className="row gap-0 d-flex">
-              <div className="col-auto col-xl-4 col-lg-4  col-md-6 col-sm-10">
+              <div className=" col-xl-4 col-lg-4  col-md-6 col-sm-10">
                 <label>
                   Alterrnate Email<sup>*</sup>
                 </label>
@@ -128,7 +128,7 @@ export const Contact = () => {
                   placeholder="Alternate email"
                 />
               </div>
-              <div className="col-auto col-xl-4 col-lg-4  col-md-6 col-sm-10">
+              <div className=" col-xl-4 col-lg-4  col-md-6 col-sm-10">
                 <label>
                   Phone Number<sup>*</sup>
                 </label>
@@ -138,7 +138,7 @@ export const Contact = () => {
                   placeholder="Phone number"
                 />
               </div>
-              <div className="col-auto col-xl-4 col-lg-4  col-md-6 col-sm-10">
+              <div className=" col-xl-4 col-lg-4  col-md-6 col-sm-10">
                 <label>
                   Choose Your Region<sup>*</sup>
                 </label>
@@ -205,9 +205,10 @@ export const Contact = () => {
                 />
               </div>
             </div>
-            <div className="row gap-0 d-flex">
-              <div className="col-auto col-xl-8 col-lg-8 col-sm-10">
-                <label>Key Word </label>
+            <div className="row gap-3 d-flex">
+              <div className="col-xl-12 col-lg-12 col-sm-10">
+                <label>Key Word 
+                  </label>
                 <textarea
                   className="form-control form-control-lg"
                   placeholder="Enter related keywords"
