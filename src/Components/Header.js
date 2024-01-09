@@ -20,9 +20,9 @@ const Header = () => {
             data-bs-target="#offcanvasDarkNavbar"
             aria-controls="offcanvasDarkNavbar"
             aria-label="Toggle navigation"
-            id="title"
+            
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"><i id="title"></i></span>
           </button>
           <div
             className="offcanvas offcanvas-end text-bg-dark"
@@ -43,7 +43,7 @@ const Header = () => {
               ></button>
             </div>
             <div className="offcanvas-body ">
-              <ul className="navbar-nav justify-content-center flex-grow-1 pe-3">
+              <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li className="nav-item" tabIndex={0}>
                   <Link
                     className="nav-link"
@@ -112,7 +112,7 @@ const Header = () => {
                   </Link>
                 </li>
               </ul>
-              <form className="d-flex" role="search" tabIndex={9}>
+              {/* <form className="d-flex" role="search" tabIndex={9}>
                 <input
                   className="form-control me-2 bg-dark"
                 
@@ -123,7 +123,7 @@ const Header = () => {
                 <button className="btn btn-outline-primary" type="submit" id="title">
                   Search
                 </button>
-              </form>
+              </form> */}
             </div>
           </div>
         </div>
