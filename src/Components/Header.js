@@ -43,7 +43,7 @@ const Header = () => {
               ></button>
             </div>
             <div className="offcanvas-body ">
-              <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <ul className="navbar-nav justify-content-end flex-grow-1 p-3">
                 <li className="nav-item" tabIndex={0}>
                   <Link
                     className="nav-link"
