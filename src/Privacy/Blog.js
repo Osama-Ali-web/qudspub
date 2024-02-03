@@ -1,13 +1,14 @@
-import React from "react";
+
 import '../index.css';
 import {Row, Col} from 'react-bootstrap';
+import React from 'react';
 export const Blog = () => {
+
+
   return (
-
-
     <>
   {/* Page Title */}
-  <div className="inner-banner img-bg">
+              <div className="inner-banner img-bg">
         <div className="overlay">
             <div className="container py-3">
                 <Row className="text-center">
@@ -18,7 +19,9 @@ export const Blog = () => {
             </div>
         </div>
     </div>
-    {/* <----------------------------------------> */}
+
+
+
 
 
     </>
